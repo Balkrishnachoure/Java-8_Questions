@@ -1,4 +1,8 @@
 
+Some Methods : 
+str.chars() : return Intstream +  Unicode of characters .Eg A - 66
+boxed() : Convert primitive to wrapper Object .
+What is Atomic Obj : 
 
 Some Very Basic Questions Java 8 : 
 1.Given a list of integers, find out all the numbers starting with 1 using Stream functions?
