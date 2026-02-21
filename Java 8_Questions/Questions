@@ -2,7 +2,8 @@
 Some Methods : 
 str.chars() : return Intstream +  Unicode of characters .Eg A - 66
 boxed() : Convert primitive to wrapper Object .
-What is Atomic Obj : 
+What is Atomic Obj ?
+Collectors.groupingBy() and Collectors.partitioningBy() ?
 
 Some Very Basic Questions Java 8 : 
 1.Given a list of integers, find out all the numbers starting with 1 using Stream functions?
@@ -29,9 +30,24 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 19. Remove Duplicate from the  list of Integer? 
 20. Commom Element bet  the two array ? 
 21. Reverse  Each word of String ? 
+22 Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
+Solution 1 : List<List<String>> result =new ArrayList<>(employees.stream()
+                        .collect(Collectors.partitioningBy(emp -> emp.getMarks() >= 80,Collectors.mapping(
+                                 Employee::getName, Collectors.toList()))).values());
+                       System.out.println(result);
+Explianation : 
+partitioningBy() → splits into 2 groups
+mapping() → extracts only names
+.values() → gives Collection<List<String>>
+new ArrayList<>(...) → converts into List<List<String>>
+
+Solution 2: 
+Map<Boolean, List<String>> map = employees.stream().collect(Collectors.partitioningBy(e -> e.getMarks() >= 80,
+                        Collectors.mapping(Employee::getName, Collectors.toList())));
+ List<List<String>> listOfLists = Arrays.asList(map.get(true), map.get(false));
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------
 General Conceptual Questions Java 8  : 
 
 1.Write a Java 8 program to find the intersection of two arrays.
