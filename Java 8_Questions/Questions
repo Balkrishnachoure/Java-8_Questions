@@ -30,7 +30,9 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 19. Remove Duplicate from the  list of Integer? 
 20. Commom Element bet  the two array ? 
 21. Reverse  Each word of String ? 
-22 Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
+22. You have a class having credit ,debit and amount? Write the programme to find the total sum of credit and debit ?Sort 
+    based on amount ? 
+23 Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
 Solution 1 : List<List<String>> result =new ArrayList<>(employees.stream()
                         .collect(Collectors.partitioningBy(emp -> emp.getMarks() >= 80,Collectors.mapping(
                                  Employee::getName, Collectors.toList()))).values());
