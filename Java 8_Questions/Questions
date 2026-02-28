@@ -33,7 +33,8 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 22. You have a class having credit ,debit and amount? Write the programme to find the total sum of credit and debit ?Sort 
     based on amount ? 
 23. String = "blue red red blue blue"; Return 2nd highest frequency of color using java 8? 
-24 Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
+24. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. 
+25. Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
 Solution 1 : List<List<String>> result =new ArrayList<>(employees.stream()
                         .collect(Collectors.partitioningBy(emp -> emp.getMarks() >= 80,Collectors.mapping(
                                  Employee::getName, Collectors.toList()))).values());
