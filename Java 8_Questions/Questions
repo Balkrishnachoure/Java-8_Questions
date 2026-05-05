@@ -35,10 +35,12 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 23. String = "blue red red blue blue"; Return 2nd highest frequency of color using java 8? 
 24. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. 
 25. Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream,
-Solution 1 : List<List<String>> result =new ArrayList<>(employees.stream()
-                        .collect(Collectors.partitioningBy(emp -> emp.getMarks() >= 80,Collectors.mapping(
-                                 Employee::getName, Collectors.toList()))).values());
-                       System.out.println(result);
+Solution 1 :  Map<Boolean, List<Employee>> result =
+                list.stream()
+                    .collect(Collectors.partitioningBy(e -> e.getMarks() > 80));
+
+        List<Employee> greaterThan80 = result.get(true);
+        List<Employee> lessThanOrEqual80 = result.get(false);
 Explianation : 
 partitioningBy() → splits into 2 groups
 mapping() → extracts only names
