@@ -6,9 +6,11 @@ Collectors.toList()
 Collectors.toSet()
 Collectors.toMap()
 Collectors.groupingBy()
-Collectors.partitioningBy()
 Collectors.joining()
 Collectors.counting()
+Collectors.partitioningBy() : Used to split elements into exactly two groups based on a boolean condition 
+                              and returns a Map<Boolean, List<T>>.
+
 
 Note: Collector → Interface
 ✅ Collectors → Final utility class
