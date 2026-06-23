@@ -55,106 +55,18 @@ Map<Boolean, List<String>> map = employees.stream().collect(Collectors.partition
                         Collectors.mapping(Employee::getName, Collectors.toList())));
  List<List<String>> listOfLists = Arrays.asList(map.get(true), map.get(false));
 
-
 --------------------------------------------------------------------------------------------------------------------------------
 General Conceptual Questions Java 8  : 
-
 1.Write a Java 8 program to find the intersection of two arrays.
 2.Implement a method in Java 8 to find the nth Fibonacci number using streams.
 3.Create a program to find the kth largest element in an array using Java 8 streams. (Eg: 2nd largest ,3rd largest)
-4.Write a Java 8 program to implement a binary search algorithm.
 5.Develop a program to reverse a string using Java 8 streams.
 6.Implement a method in Java 8 to generate a list of prime numbers up to a given limit.
 7.Create a program to check if a given number is a perfect square using Java 8 streams.
 8.Write a Java 8 program to rotate an array by a given number of positions.
 9.Implement a method to find the longest substring without repeating characters in a given string using Java 8 streams.
-10.Develop a program to perform matrix multiplication using Java 8 streams.
 11.Sort the array in descending and Ascending order  using Comparator in Java 8 streams (In List,TreeSet,TreeMap) .
-12. Make child Thread and Parent Thread using Anonymous Inner Class and Lambda Expression .
+12. Make child Thread and Parent Thread using   Lambda Expression .
 13.You have a Table having Columns Transaction type having Credit and Debit only , and Amount . Create Single Query to find the total  Sum of  Credit and Debit ? 
 14. Sort the map based on value .
-
-Questions on Predicate : 
-
-1.Write a Java 8 program to check if a given string is a palindrome using predicates.
-2.Implement a Java 8 program to find all prime numbers in a given range using predicates.
-3.Create a Java 8 program to filter a list of strings based on a given predicate condition (e.g., string length greater than 5).
-4.Write a Java 8 program to check if a given number is even or odd using predicates.
-5.Implement a Java 8 program to filter a list of integers to find all numbers divisible by 3 using predicates.
-6.Create a Java 8 program to check if a given string contains only digits using predicates.
-7.Write a Java 8 program to filter a list of strings to find all strings starting with a vowel using predicates.
-8.Implement a Java 8 program to find the average of all even numbers in a list using predicates.
-9.Create a Java 8 program to check if a given list of integers is sorted in non-decreasing(Ascending Order) order using predicates.
-10.Write a Java 8 program to filter a list of strings to find all strings containing a specific substring using predicates.
-
-Level:2
-1.Implement a Java 8 program to find the longest substring in a given string that contains only vowels, using predicates.
-2.Write a Java 8 program to check if a given list of strings forms a valid palindrome when concatenated together, using predicates.
-3.Create a Java 8 program to find the second smallest element in a given list of integers using predicates.
-4.Implement a Java 8 program to find all anagrams of a given word in a list of strings, using predicates.
-5.Write a Java 8 program to find the longest increasing subsequence in a given list of integers, using predicates.
-
-
-Questions on Consumer : 
-
-1. Filter and Process: Given a list of strings, write a program to filter out strings starting with the letter 'A' and then print the remaining strings in uppercase.
-2.Custom Consumer: Implement a Consumer that takes a list of integers and prints the square of each integer.
-3.Chain Consumers: Create a chain of consumers where each consumer adds a specific string prefix to a list of strings. For example, the first consumer adds "Prefix1" to each string, the second consumer adds "Prefix2", and so on.
-4.Conditional Consumer: Write a program to accept a list of integers and print "Even" if the number is even and "Odd" if it's odd, using a single consumer.
-5.Consumer Composition: Given a list of strings, write a program that applies two consumers in sequence: the first one converts each string to uppercase, and the second one appends "Processed" to each string.
-6.Parallel Processing: Implement a program that uses parallel streams to apply a consumer to each element of a large list of integers. Ensure thread safety in your implementation.
-7.Consumer with Exception Handling: Write a program where a consumer is applied to each element of a list of integers. If any element is negative, throw a custom exception and handle it gracefully.
-8.Consumer with Resource Management: Implement a program that reads lines from a file using a BufferedReader and applies a consumer to each line. Ensure proper resource management and exception handling.
-9.Nested Consumers: Create a program that applies a consumer to each element of a list of integers. Within the consumer, apply another consumer to print the square of each element.
-10.Consumer with State: Write a program where a consumer is applied to a list of strings. The consumer should keep track of the longest string encountered so far and print it after processing all elements.
-
-
-Questions on Functions : 
-
-Level 1 : 
-1.Write a Java 8 function that takes a list of integers and returns the sum of the squares of all even numbers in the list.
-2.Implement a function that takes a list of strings and returns a new list containing the lengths of those strings.
-3.Create a function that accepts a list of integers and returns the average of all the prime numbers in the list.
-4.Write a function that takes a list of strings and returns the count of distinct characters across all strings.
-5.Implement a function that accepts two lists of integers and returns a new list containing the intersection of the two lists (i.e., the common elements).
-6.Create a function that takes a list of strings and returns a map where the keys are the lengths of the strings, and the values are lists of strings of that length.
-7.Write a function that takes a list of integers and returns a list containing only the elements that are greater than the average of all the elements in the list.
-8.Implement a function that accepts a list of integers and returns true if the list is in ascending order, false otherwise.
-9.Create a function that takes a list of strings and returns a new list containing only the strings that are palindromes.
-10.Write a function that takes a list of integers and returns the product of all the elements in the list that are divisible by 3.
-
-Level 2 : 
-1.Implement a function that takes a list of integers and returns a map where the keys are the integers and the values are lists of integers representing the indices at which each key occurs in the original list.
-2.Write a function that accepts a list of strings and returns the longest palindrome present in the list.
-3.Create a function that takes a list of integers and returns a new list containing the Fibonacci sequence up to the maximum integer in the input list.
-4.Implement a function that takes a list of strings and returns a map where the keys are the first characters of the strings (converted to uppercase) and the values are lists of strings starting with that character.
-5.Write a function that accepts a list of integers and returns a list containing the prime factors of each integer in the input list.
-6.Create a function that takes a list of strings and returns a new list containing the strings sorted by the number of vowels they contain.
-7.Implement a function that takes a list of integers and returns the nth smallest element in the list.
-8.Write a function that accepts a list of strings and returns a map where the keys are the strings sorted alphabetically and the values are lists of strings that are anagrams of each other.
-9.Create a function that takes a list of integers and returns a list containing the indices of the two elements that sum up to a specific target.
-10.Implement a function that takes a list of strings and returns true if all the strings contain at least one digit, false otherwise.
-
-
-Questions on Supplier  : 
-
-Level 1 :
-1.Write a Supplier that returns a random integer between 1 and 100.
-2.Implement a Supplier that returns "Even" if the current time is an even number of seconds since midnight, and "Odd" otherwise.
-3.Explain the concept of Supplier memoization and provide an example of how it can be implemented.
-4.How would you ensure thread safety when using a Supplier in a multi-threaded environment? Provide strategies or techniques to achieve this.
-
-Level 2 : 
-1.Supplier Composition: Write a method that takes two suppliers as input and returns a new supplier which returns the result of applying the first supplier to the result of applying the second supplier.
-2.Supplier Chain: Implement a method that takes an array of suppliers as input and returns a supplier which executes each supplier in the array sequentially and returns the result of the last one.
-3.Supplier Transformation: Create a method that takes a supplier and a function as input and returns a new supplier which applies the function to the result of the original supplier.
-4.Supplier Filtering: Write a method that takes a supplier and a predicate as input and returns a new supplier that repeatedly calls the original supplier until the result satisfies the predicate.
-5.Supplier Caching: Implement a caching mechanism for suppliers where the result of the supplier is cached after the first call and subsequent calls return the cached result.
-6.Supplier Retry: Create a method that takes a supplier and a maximum retry count as input and returns a new supplier that repeatedly calls the original supplier until it succeeds or the maximum retry count is reached.
-7.Supplier Timeout: Write a method that takes a supplier and a timeout duration as input and returns a new supplier that calls the original supplier but throws a TimeoutException if the execution exceeds the specified timeout duration.
-8.Supplier Parallelization: Implement a method that takes multiple suppliers as input and returns a new supplier that executes each supplier in parallel and returns a list of results in the same order as the input.
-9.Supplier Fan-out: Create a method that takes a supplier returning a collection and a function as input, and returns a new supplier that applies the function to each element of the collection returned by the original supplier and returns a collection of results.
-10.Supplier Monitoring: Write a method that takes a supplier and a monitoring function as input and returns a new supplier that calls the original supplier and then applies the monitoring function to the result before returning it.
-
-
 
