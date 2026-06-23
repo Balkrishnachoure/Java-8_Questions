@@ -1,11 +1,12 @@
+# Extra Concepts :
 
-Some Methods : 
 str.chars() : return Intstream +  Unicode of characters .Eg A - 66
 boxed() : Convert primitive to wrapper Object .
 What is Atomic Obj ?
 Collectors.groupingBy() and Collectors.partitioningBy() ?
+----------------------------------------------------------------------------------------------------------
+# Basic Questions Java 8 : 
 
-Some Very Basic Questions Java 8 : 
 1.Given a list of integers, find out all the numbers starting with 1 using Stream functions? Also find the 
   numbers in another stream that starts with 1 but do not ends with 1 ? 
 2.How to find duplicate elements in a given integers list in java using Stream functions?
@@ -56,7 +57,8 @@ Map<Boolean, List<String>> map = employees.stream().collect(Collectors.partition
  List<List<String>> listOfLists = Arrays.asList(map.get(true), map.get(false));
 
 --------------------------------------------------------------------------------------------------------------------------------
-General Conceptual Questions Java 8  : 
+# General Conceptual Questions Java 8  : 
+
 1.Write a Java 8 program to find the intersection of two arrays.
 2.Implement a method in Java 8 to find the nth Fibonacci number using streams.
 3.Create a program to find the kth largest element in an array using Java 8 streams. (Eg: 2nd largest ,3rd largest)
