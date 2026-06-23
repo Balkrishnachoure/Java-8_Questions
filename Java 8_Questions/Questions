@@ -1,4 +1,20 @@
 # Extra Concepts :
+1. Is Collectors an Interface ? What is the return type of collect ?
+
+Ans. NO, It is a final utility class in the java.util.stream package.It provides static factory methods like :
+Collectors.toList()
+Collectors.toSet()
+Collectors.toMap()
+Collectors.groupingBy()
+Collectors.partitioningBy()
+Collectors.joining()
+Collectors.counting()
+
+Note: Collector → Interface
+✅ Collectors → Final utility class
+✅ Collectors.toList() → Returns an object implementing the Collector interface
+
+Ans 2. The return type of collect() is generic and depends on the Collector you pass.
 
 str.chars() : return Intstream +  Unicode of characters .Eg A - 66
 boxed() : Convert primitive to wrapper Object .
