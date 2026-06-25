@@ -16,7 +16,8 @@ Note: Collector → Interface (returned by methods in Collectors class ).
 ✅ Collectors → Final utility class
 ✅ Collectors.toList() → Returns an object implementing the Collector interface
 
-Ans 2. The return type of collect() is generic and depends on the Collector you pass.
+Ans 2. The return type of collect() is generic and depends on the Collector you pass.The collect() 
+method accepts a Collector as its argument .
 
 str.chars() : return Intstream +  Unicode of characters .Eg A - 66
 boxed() : Convert primitive to wrapper Object .
