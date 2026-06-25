@@ -12,7 +12,7 @@ Collectors.partitioningBy() : Used to split elements into exactly two groups bas
                               and returns a Map<Boolean, List<T>>.
 
 
-Note: Collector → Interface
+Note: Collector → Interface (returned by methods in Collectors class ).
 ✅ Collectors → Final utility class
 ✅ Collectors.toList() → Returns an object implementing the Collector interface
 
