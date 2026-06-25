@@ -1,7 +1,7 @@
 # Extra Concepts :
 1. Is Collectors an Interface ? What is the return type of collect ?
 
-Ans. NO, It is a final utility class in the java.util.stream package.It provides static factory methods like :
+Ans. NO, It is a final utility class in the java.util.stream package.It contains many  static methods like :
 Collectors.toList()
 Collectors.toSet()
 Collectors.toMap()
