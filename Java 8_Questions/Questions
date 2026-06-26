@@ -34,7 +34,7 @@ Collectors.groupingBy() and Collectors.partitioningBy() ?
 3.Given a list of integers, find the maximum value element present in it using Stream functions?
   Also find 2nd largest number?Find the Nth largest Element provided n is given? 
 4. Find the 3 min and max elements from the List ? Learn about limit() ? 
-5. Sort the List of String in increasing order of their length ? 
+5. Sort the List of String in increasing order of their length ?(Learn Comparator.comparingInt()) . 
 6.Given a String, find the first non-repeated character in it using Stream functions?
 7.Given a String, find the first repeated character in it using Stream functions?
 8.Given a list of integers, sort all the values present in it in descending order using Stream functions?
