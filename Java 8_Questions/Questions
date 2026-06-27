@@ -25,7 +25,7 @@ What is Atomic Obj ?
 Collectors.groupingBy() and Collectors.partitioningBy() ?
 ----------------------------------------------------------------------------------------------------------
 # Basic Questions Java 8 : 
-
+Q.*Write simple code of Predicate,Function, Consumer, Supplier ? 
 1.Given a list of integers, find out all the numbers starting with 1 using Stream functions? Also find the 
   numbers in another stream that starts with 1 but do not ends with 1 ? 
 2.How to find duplicate elements in a given integers list in java using Stream functions?Find the fisrt duplicate 
