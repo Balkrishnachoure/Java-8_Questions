@@ -55,8 +55,9 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
    (Learn about "IntStream.collect(Collectors.toList())" : IntStream is a primitive stream. 
     It cannot use Collectors.toList() directly. )
 
-15.Given the list of Strings , find the String with max length ? (Learn about Comparator.comparing() .) 
-(Eg :Arrays.asList("Alice", "Bob", "Charlie", "David");) 
+15.Given the list of Strings , find the String with max length ? (Learn about Comparator.comparing() 
+     Note : max() returns Optional<T> because the stream might be empty.  )
+     (Eg :Arrays.asList("Alice", "Bob", "Charlie", "David");) 
 16.Merge two unsorted array in single sorted array without duplicates using java 8 ?
 17. Reverse an Integer Array ? 
 18. Check String is palindorm or not java 8 ? 
