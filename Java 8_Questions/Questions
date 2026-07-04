@@ -5,7 +5,7 @@ Ans. NO, It is a final utility class in the java.util.stream package.It contains
 Collectors.toList()
 Collectors.toSet()
 Collectors.toMap()
-Collectors.groupingBy()
+Collectors.groupingBy() : returns Map<K, List<T>>.The value type doesn't have to be List<T>.
 Collectors.joining()
 Collectors.counting()
 Collectors.partitioningBy() : Used to split elements into exactly two groups based on a boolean condition 
