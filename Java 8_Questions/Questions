@@ -66,7 +66,7 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 
 18. Check String is palindorm or not java 8 ? (Imp Question try using IntStream() and allMatch() ) 
 19. Remove Duplicate from the  list of Integer? 
-20. Commom Element bet  the two array ? 
+20. Commom Element bet  the two array ? (Important)  
 21. Reverse  Each word of String ? 
 22. You have a class having credit ,debit and amount? Write the programme to find the total sum of credit and debit ?Sort 
     based on amount ? 
