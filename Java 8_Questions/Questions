@@ -68,6 +68,9 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 19. Remove Duplicate from the  list of Integer? 
 20. Commom Element bet  the two array ? (Important)  
 21. Reverse  Each word of String ? (Imp : Learn about mapToObj() Collectors.joining()) 
+   Note: map()	IntStream (int → int)
+         mapToObj()	Stream<T> (int → object)
+
 22. You have a class having credit ,debit and amount? Write the programme to find the total sum of credit and debit ?Sort 
     based on amount ? 
 23. String = "blue red red blue blue"; Return 2nd highest frequency of color using java 8? 
