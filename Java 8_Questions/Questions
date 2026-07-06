@@ -64,7 +64,7 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 
 17. Reverse an Integer Array ? (Learn about Stream.of() and Arrays.stream()  and IntStream.of()  )
 
-18. Check String is palindorm or not java 8 ? 
+18. Check String is palindorm or not java 8 ? (Imp Question try using IntStream() and allMatch() ) 
 19. Remove Duplicate from the  list of Integer? 
 20. Commom Element bet  the two array ? 
 21. Reverse  Each word of String ? 
