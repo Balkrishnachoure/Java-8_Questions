@@ -77,7 +77,8 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
     based on amount ? 
 23. String = "blue red red blue blue"; Return 2nd highest frequency of color using java 8? 
 24. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. 
-25 Want average salary of each department.Using Java 8 ? Also Write another stream to group Emps by department ? 
+25 Want average salary of each department.Using Java 8 ? Also Write another stream to group Emps name  by department ?
+(Learn Collectors.mapping()) 
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
 27. Integer n= null ; 
     Integer res =n+10 ; How to handle  it using optional class ? 
