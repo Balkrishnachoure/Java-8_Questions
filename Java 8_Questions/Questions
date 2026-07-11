@@ -8,6 +8,8 @@ Collectors.toMap()
 Collectors.groupingBy() : returns Map<K, List<T>>.The value type doesn't have to be List<T>.
 Collectors.joining() : Terminal Opration  that combines multiple String elements from a stream into a single String
 Collectors.counting()
+Collectors.mapping() : used with collectors like groupingBy() or partitioningBy(). It transforms each 
+                       element before collecting it.
 Collectors.partitioningBy() : Used to split elements into exactly two groups based on a boolean condition 
                               and returns a Map<Boolean, List<T>>.
 
