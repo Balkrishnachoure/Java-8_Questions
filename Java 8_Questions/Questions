@@ -84,7 +84,12 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
 27. Integer n= null ; 
     Integer res =n+10 ; How to handle  it using optional class ? 
-28. Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream? 
+
+28. Create an ArraList that should have number 1-100 but if the number is multiple of 3 then 
+    it should be replaced with word "Ping", and multiples of 5 should be replaced with word "Pong" and multiples of both 
+    3 and 5 with "PingPong".Print this arrayList ?
+
+29. Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream? 
 Solution 1 :  Map<Boolean, List<Employee>> result =
                 list.stream()
                     .collect(Collectors.partitioningBy(e -> e.getMarks() > 80));
