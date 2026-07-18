@@ -65,11 +65,12 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 
 12.How to find only duplicate elements with its count from the String ArrayList in Java8?
 
+
 13.How to check if list is empty in Java 8 using Optional, if not null iterate through the list 
    and print the object? (Learn difference bet isEmpty() and Optional.ofNullable()  and ifPresent() ) ?
 
 14.Java 8 programme to find the prime number in range 1-100 ? 
-   (Learn about "IntStream.collect(Collectors.toList())" : IntStream is a primitive stream. 
+   (Learn about "Stream.collect(Collectors.toList())" : IntStream is a primitive stream. 
     It cannot use Collectors.toList() directly. )
 
 15.Given the list of Strings , find the String with max length ? Also Find String having 2nd max length? (Learn about Comparator.comparing() 
