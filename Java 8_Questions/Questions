@@ -72,7 +72,7 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
    (Learn about "IntStream.collect(Collectors.toList())" : IntStream is a primitive stream. 
     It cannot use Collectors.toList() directly. )
 
-15.Given the list of Strings , find the String with max length ? (Learn about Comparator.comparing() 
+15.Given the list of Strings , find the String with max length ? Also Find String having 2nd max length? (Learn about Comparator.comparing() 
      Note : max() returns Optional<T> because the stream might be empty.  )
      (Eg :Arrays.asList("Alice", "Bob", "Charlie", "David");) 
 
