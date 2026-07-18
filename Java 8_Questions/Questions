@@ -78,7 +78,7 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
      (Eg :Arrays.asList("Alice", "Bob", "Charlie", "David");) 
 
 16.Merge two unsorted array in single sorted array without duplicates using java 8 ? (Very Important Ques
-   Learn about : "Intstream.concat(Arrays.stream(arr1),Arrays.stream(arr2))"  and "toArray()" ) 
+   Learn about : "Stream.concat(Arrays.stream(arr1),Arrays.stream(arr2))"  and "toArray()" ) 
 
 17. Reverse an Integer Array ? (Learn about Stream.of() and Arrays.stream()  and IntStream.of()  )
 
