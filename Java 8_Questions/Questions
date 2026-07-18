@@ -30,31 +30,44 @@ Collectors.groupingBy() and Collectors.partitioningBy() ?
 Q.*Write simple code of Predicate (test() ) ,Function (apply()) , Consumer(accept()) , Supplier (get())  ? 
 1.Given a list of integers, find out all the numbers starting with 1 using Stream functions? Also find the 
   numbers in another stream that starts with 1 but do not ends with 1 ? 
+
 2.How to find duplicate elements in a given integers list in java using Stream functions?Find the fisrt duplicate 
   element learn about find "findFirst()" ? Also find first non repeating character in 
   String "Wissen"(Learn about LinkedHashmap ::new and understant importance) ? 
+
 3.Given a list of integers, find the maximum value element present in it using Stream functions?
   Also find 2nd largest number?Find the Nth largest Element provided n is given? 
+
 4. Find the 3 min and max elements from the List ? Learn about limit() ? 
+
 5. Sort the List of String in increasing order of their length ?(Learn Comparator.comparingInt()).(Q. You are 
    given id , Name, Salary Entity - Sort the by Name in descending order (  Learn Why can't we use
    sorted((e1,e2)-> e2.getName() - e1.getName()))  )).
+
 6.Given a String = "Wissen", find the first non-repeated character in it using Stream functions?
+
 7.Given a String str="Wissen" , find the first repeated character in it using Stream functions?
+
 8.Given a list of integers, sort all the values present in it in descending order using Stream functions?
+
 9.How to use map to convert object into Uppercase in Java 8?
+
 10.How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order?
 Keep Department as key.
 
 Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  new Employee(2, "Alice", "HR"),  new Employee(3, "Bob", "IT"),
                                 new Employee(4, "David", "HR"),  new Employee(5, "Sam", "Finance")); 
 
+
 11.How to count each element/word from the String ArrayList in Java8?
    (Order of Insertion Should be preserved also see what if we will use treemap)? 
 
+
 12.How to find only duplicate elements with its count from the String ArrayList in Java8?
+
 13.How to check if list is empty in Java 8 using Optional, if not null iterate through the list 
    and print the object? (Learn difference bet isEmpty() and Optional.ofNullable()  and ifPresent() ) ?
+
 14.Java 8 programme to find the prime number in range 1-100 ? 
    (Learn about "IntStream.collect(Collectors.toList())" : IntStream is a primitive stream. 
     It cannot use Collectors.toList() directly. )
@@ -69,26 +82,37 @@ Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  n
 17. Reverse an Integer Array ? (Learn about Stream.of() and Arrays.stream()  and IntStream.of()  )
 
 18. Check String is palindorm or not java 8 ? (Imp Question try using IntStream() and allMatch() ) 
+
 19. Remove Duplicate from the  list of Integer? 
-20. Commom Element bet  the two array ? (Important)  
+
+20. Commom Element bet  the two array ? (Important) 
+
 21. Reverse  Each word of String ? (Imp : Learn about mapToObj() Collectors.joining()) 
    Note: map()	IntStream (int → int)
          mapToObj()	Stream<T> (int → object)
 
 22. You have a class having credit ,debit and amount? Write the programme to find the total sum of credit and debit ?Sort 
     based on amount ? 
-23. String = "blue red red blue blue"; Return 2nd highest frequency of color using java 8? 
-24. Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct. 
+
+23. String = "blue red red blue blue"; Return 2nd highest frequency of word  using java 8? 
+Then find highest Frequency Word ?
+
+24. Given an integer array nums, return true if any value appears at least twice in the array, 
+and return false if every element is distinct. 
+
 25 Want average salary of each department.Using Java 8 ? Also Write another stream to group Emps name  by department ?
    Highest paid Employee in each Department ? 
-(Learn Collectors.mapping()) 
+(Learn Collectors.mapping())
+
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
+
 27. Integer n= null ; 
     Integer res =n+10 ; How to handle  it using optional class ? 
 
 28. Create an ArraList that should have number 1-100 but if the number is multiple of 3 then 
     it should be replaced with word "Ping", and multiples of 5 should be replaced with word "Pong" and multiples of both 
     3 and 5 with "PingPong".Print this arrayList ?
+
 29. Highest FreQuency of word in String "Java is Fun Java is Powerfull" ? 
 
 30. Divide employees into two lists  based on marks i.e marks >80 and <80 in a single stream? 
