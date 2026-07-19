@@ -2,6 +2,10 @@
 1. Is Collectors an Interface ? What is the return type of collect ?
 
 Ans. NO, It is a final utility class in the java.util.stream package.It contains many  static methods like :
+
+Collectors.collectingAndThen(collectors ,Operation ) : first collect data then perform operation .
+Collectors.maxBy() :
+Collectors.mapping() : group objects based on a specific property ;
 Collectors.toList()
 Collectors.toSet()
 Collectors.toMap()
