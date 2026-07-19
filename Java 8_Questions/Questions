@@ -112,6 +112,7 @@ Highest paid Employee in each Department (Collectors.maxBy() )?
 
 
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
+    Write Simple Codes of Predicate .Consumer ,Functions and Supplier ? 
 
 27. Integer n= null ; 
     Integer res =n+10 ; How to handle  it using optional class ? 
