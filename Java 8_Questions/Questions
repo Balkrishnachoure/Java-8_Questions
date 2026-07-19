@@ -102,7 +102,7 @@ Then find highest Frequency Word ?
 and return false if every element is distinct. 
 
 25 Want average salary of each department.Using Java 8 ? Also Write another stream to group Emps name  by department ?
-   Highest paid Employee in each Department ? 
+   Highest paid Employee in each Department ? 2nd highest Paid Employee in each Department ?
 (Learn Collectors.mapping())
 
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
