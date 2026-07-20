@@ -109,7 +109,8 @@ and return false if every element is distinct.
 *Also Write another stream to group Emps name  by department (Learn Collectors.mapping())  ?
 *Highest paid Employee in each Department (Collectors.maxBy() )?
 *2nd highest Paid Employee in each Department (Learn Collectors.collectingAndThen()) ?
-* Sort Name of Employee in Reverse Alphabectical Order ? 
+* Sort Name of Employee in Reverse Alphabectical Order (Here you will get List<Emp>)? 
+* Wirte Another Stream to sort Name of emp in Reverse Alphabetical Order ( For List<String> ) ?
 
 
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
