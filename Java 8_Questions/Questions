@@ -51,7 +51,9 @@ Q.*Write simple code of Predicate (test() ) ,Function (apply()) , Consumer(accep
 
 6.Given a String = "Wissen", find the first non-repeated character in it using Stream functions?
 
-7.Given a String str="Wissen" , find the first repeated character in it using Stream functions?
+7.Given a String str="Wissen" , find the first repeated(duplicate) character in it using Stream functions?
+Then Find All duplicate Character from string ? 
+  
 
 8.Given a list of integers, sort all the values present in it in descending order using Stream functions?
 
