@@ -59,11 +59,12 @@ Then Find All duplicate Character from string ?
 
 9.How to use map to convert object into Uppercase in Java 8?
 
-10.How to convert a List of objects into a Map by considering duplicated keys and store them in sorted order?
-Keep Department as key.
+10.How to convert a List of objects into a Map by considering duplicated keys and store them in 
+ sorted order(Sorted order of Key)?Keep Department as key.
 
-Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  new Employee(2, "Alice", "HR"),  new Employee(3, "Bob", "IT"),
-                                new Employee(4, "David", "HR"),  new Employee(5, "Sam", "Finance")); 
+Ex : List<Employee> employees = Arrays.asList( new Employee(1, "John", "IT"),  new Employee(2, "Alice", "HR"), 
+                                new Employee(3, "Bob", "IT"),new Employee(4, "David", "HR"), 
+                                new Employee(5, "Sam", "Finance")); 
 
 
 11.How to count each element/word from the String ArrayList in Java8?
