@@ -116,7 +116,9 @@ and return false if every element is distinct.
 * Sort Name of Employee in Reverse Alphabectical Order (Here you will get List<Emp>)? 
 * Wirte Another Stream to sort Name of emp in Reverse Alphabetical Order ( For List<String> ) ?
 *Sort employees first by department, then by salary descending.(Learn  thenComparing())
-
+* Department having maximum employees ?
+* Find duplicate employees based on Name and Department ?
+* Merge two employee lists without duplicates
 
 26. Create Functional Interface having method Sum() and implement it using Lambada Expression ?
     Write Simple Codes of Predicate .Consumer ,Functions and Supplier ? 
